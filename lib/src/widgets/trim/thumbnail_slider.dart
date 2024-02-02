@@ -120,7 +120,7 @@ class _ThumbnailSliderState extends State<ThumbnailSlider> {
                       }
 
                       final index =
-                          getBestIndex(_neededThumbnails, data.length, i);
+                          getBestIndex(_neededThumbnails, data!.length, i);
 
                       return Stack(
                         children: [
